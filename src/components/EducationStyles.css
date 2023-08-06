@@ -1,0 +1,41 @@
+.education-card{
+    max-width: 1140px;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+.university-title{
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    font-size: 1.6rem;
+}
+.course-subtitle{
+    color: white;
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+    font-size: 1rem;
+}
+.education-body{
+    /* border: 1px solid white; */
+    justify-content: end;
+    background: #1a1919;
+}
+.card-text{
+    text-align: center;
+    justify-content: end;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+
+@media screen and (max-width: 740px) {
+    .education-card{
+        max-width: 90%;
+        margin: auto;
+        padding-top: 1rem;
+        grid-template-columns: 1fr;
+    } 
+}

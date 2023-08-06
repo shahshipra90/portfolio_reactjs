@@ -1,0 +1,66 @@
+.img-logo{
+    height: 5rem;
+    width: 5rem;
+    padding: 0.5rem;
+}
+h3{
+    color: white;
+}
+.skills{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.web{
+    background: #1a1919;
+    padding: 1rem 0 1rem 0;
+    width: 740px;
+    margin-left: 22rem;
+}
+.languages{
+    background: #1a1919;
+    padding: 1rem 0 1rem 0;
+    width: 740px;
+    margin-left: 22rem;
+}
+.other-tools{
+    background: #1a1919;
+    padding: 1rem 0 1rem 0;
+    width: 740px;
+    margin-left: 22rem;
+}
+.Management{
+    background: #1a1919;
+    padding: 1rem 0 1rem 0;
+    width: 740px;
+    margin-left: 22rem;
+}
+
+@media screen and (max-width: 740px) {
+    .skills{
+        max-width: 50%;
+        margin: auto;
+        padding-top: 1rem;
+        grid-template-columns: 1fr;
+    } 
+    .web{
+        padding: 1rem 1rem 1rem 0;
+        max-width: 90%;
+        margin: auto;
+    }
+    .languages{
+        padding: 1rem 1rem 1rem 0;
+        max-width: 90%;
+        margin: auto;
+    }
+    .other-tools{
+        padding: 1rem 1rem 1rem 0;
+        max-width: 90%;
+        margin: auto;
+    }
+    .Management{
+        padding: 1rem 1rem 1rem 0;
+        max-width: 90%;
+        margin: auto;
+    } 
+}

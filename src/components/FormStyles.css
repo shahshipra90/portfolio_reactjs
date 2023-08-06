@@ -1,0 +1,15 @@
+.connect{
+    width: 740px;
+    margin: 2rem 0rem 0 13rem;
+}
+.connect-body{
+    /* background: #1a1919; */
+    padding: 1rem 0 1rem 0 1rem;
+}
+.connect-text{
+    justify-content: end;
+}
+.connect-ways{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
