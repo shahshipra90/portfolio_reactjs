@@ -1,8 +1,15 @@
 import pro1 from "../assets/project1.jpeg"
 import pro2 from "../assets/project2.jpeg"
 import pro3 from "../assets/project3.jpg"
+import pro4 from "../assets/pro4.jpg"
 
 const ProjectCardData = [
+    {
+        imgsrc: pro4,
+        title: "Shoppers",
+        text: "An e-commerce platform for convinent purchasing of clothing and accessories.",
+        view: ""
+    },
     {
         imgsrc: pro1,
         title: "Uwin Online Research Sharing Platform",
@@ -21,6 +28,7 @@ const ProjectCardData = [
         text: "An platform that helps the environemnt by reducing the food wastage, and helping the needy people to overcome starvation.",
         view: "https://github.com/shahshipra90/Reclaim-The-Meal"
     },
+    
 ];
 
 export default ProjectCardData;

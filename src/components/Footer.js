@@ -10,9 +10,9 @@ const footer = () => {
                 <div className="location">
                     <FaHome size={20} style={{color:"#fff", marginRight: "2rem"}} />
                     <div>
-                        <p>954 McEwan Ave</p>
-                        <p>N9B 2G2</p>
-                        <p>Windsor, ON</p>
+                        {/* <p>954 McEwan Ave</p> */}
+                        {/* <p>N9B 2G2</p> */}
+                        <p>Ontario</p>
                     </div>
                 </div>
                 <div className="phone">
