@@ -28,7 +28,7 @@ const ProjectCardData = [
         text: "An platform that helps the environemnt by reducing the food wastage, and helping the needy people to overcome starvation.",
         view: "https://github.com/shahshipra90/Reclaim-The-Meal"
     },
-    
+
 ];
 
 export default ProjectCardData;
