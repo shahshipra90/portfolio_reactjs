@@ -3,6 +3,7 @@ import "./NavbarStyles.css"
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import resumeFile from './shiprashah.pdf';
 
 const Navbar = () => {
 
@@ -18,6 +19,8 @@ const Navbar = () => {
             setColor(false);
         }
     };
+
+   
 
     window.addEventListener("scroll", changeColor);
   return (
@@ -43,6 +46,11 @@ const Navbar = () => {
         </li>
         <li>
             <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+            <a href={resumeFile} download="shiprashah.pdf">
+                        Resume
+            </a>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
